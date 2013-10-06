@@ -1,0 +1,86 @@
+/* Base */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* Layout */
+.weather {
+  width: 320px;
+  height: 568px;
+  background: url(../img/thunderstorm.jpg) 0 0 no-repeat;
+  margin: 100px auto;
+}
+
+.group {
+  padding: 15px;
+
+}
+
+/* Now */
+.now {
+  padding: 60px 0 30px 0;
+  text-align: center;
+}
+
+.now h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.now h2 {
+  font-size: 72px;
+}
+
+/*group*/
+.group {
+  text-align: right;
+}
+
+.today h3 {
+  float: left;
+}
+
+.day h4 {
+  float: left;
+}
+
+/*hourly*/
+.hour {
+  float: left;
+    width: 57px;
+    text-align: center;
+    background: url(../img/icon_sunny.png) center center no-repeat;
+}
+
+.hour h4 {
+  margin-bottom: 30px;
+}
+
+.hour.rain {
+  background: url(../img/icon_rain.png) center center no-repeat;
+
+}
+
+.hour.cloudy {
+  background: url(../img/icon_cloudy.png) center center no-repeat;
+}
+
+.clear {
+  clear: both;
+}
+
+/*day*/
+.day {
+  background: url(../img/icon_sunny.png) center right no-repeat;
+  padding: 10px 30px 10px 0px;
+}
+.day.rain{
+  background: url(../img/icon_rain.png) center right no-repeat;
+}
+
+.day.cloudy{
+  background: url(../img/icon_cloudy.png) center right no-repeat;
+}
